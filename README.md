@@ -50,7 +50,7 @@ The `Random_Forest.ipynb` notebook focuses on:
 
  1. Clone the Repository
    ```bash
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/srutayu/cybersec-project.git
    cd your_repository
    ```
 
