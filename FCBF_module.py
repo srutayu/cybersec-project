@@ -21,7 +21,7 @@ def symmetricalUncertain(x,y):
     Hx = entropy(x)
     # Computing Entropy for the feature y.
     Hy = entropy(y)
-    #Computing Joint entropy between x and y.
+    #Computing Joint entropy between x and y. 
     partial = np.zeros(shape = (vals.shape[0]))
     for i in range(vals.shape[0]):    
        partial[i] = entropy(x[y == vals[i]]) 
